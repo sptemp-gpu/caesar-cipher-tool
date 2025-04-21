@@ -1,93 +1,91 @@
-# Caesar Cipher Tool 🔐
+Here’s the full `README.md` content in proper Markdown format:
 
-![Python Version](https://img.shields.io/badge/python-3.12%2B-blue.svg)
-![License](https://img.shields.io/github/license/sptemp-gpu/caesar-cipher-tool)
-![Last Commit](https://img.shields.io/github/last-commit/sptemp-gpu/caesar-cipher-tool)
-![Repo Size](https://img.shields.io/github/repo-size/sptemp-gpu/caesar-cipher-tool)
-![Issues](https://img.shields.io/github/issues/sptemp-gpu/caesar-cipher-tool)
+```markdown
+# Caesar Cipher Tool
 
-> A modern, beginner-friendly encryption & decryption tool supporting Caesar Cipher, Vigenère Cipher, and AES Encryption with a GUI and file handling functionality.
+A tool for encrypting and decrypting text using various encryption methods like Caesar Cipher, Vigenère Cipher, and AES. This tool also supports batch file processing, cloud storage integration (future), and more.
 
----
+![GitHub](https://img.shields.io/github/license/yourusername/caesar-cipher-tool)
+![Version](https://img.shields.io/github/v/release/yourusername/caesar-cipher-tool)
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)
 
-## ✨ Features
+## Features
 
-- 🔒 Caesar Cipher encryption/decryption
-- 🔑 Vigenère Cipher support
-- 🔐 AES encryption using password
-- 🧠 Brute-force Caesar decryption
-- 📂 Load/Save text from/to files
-- 📑 Multi-cipher GUI with tkinter
-- 💬 Help and error handling dialogs
-- 📝 Batch file processing (Planned)
-- ☁️ Cloud integration (Planned)
-- 🌍 Multi-language support (Planned)
+- Encrypt and decrypt text using Caesar Cipher, Vigenère Cipher, and AES.
+- Load and save files for batch processing.
+- Real-time feedback and help options for new users.
+- Future cloud storage integration.
+- Log actions and errors for tracking.
 
-## 🛠️ Setup Instructions
+## Installation
 
-### 🔽 Clone the Repo
+Clone the repo and install dependencies:
+
 ```bash
-git clone https://github.com/sptemp-gpu/caesar-cipher-tool.git
+git clone https://github.com/yourusername/caesar-cipher-tool.git
 cd caesar-cipher-tool
-```
-
-### 📦 Install Requirements
-```bash
 pip install -r requirements.txt
 ```
 
-### 🚀 Run the App
-```bash
-python src/main.py
+## Usage
+
+### Caesar Cipher
+To encrypt text using Caesar Cipher:
+1. Enter the text to be encrypted.
+2. Specify the shift value (an integer).
+3. Click 'Encrypt' to get the encrypted text.
+
+To decrypt, follow the same steps, but use the negative value of the shift.
+
+### Vigenère Cipher
+For encrypting text using the Vigenère Cipher:
+1. Enter the text to be encrypted.
+2. Provide a key (string).
+3. Click 'Encrypt' to get the encrypted text.
+
+For decryption, the key is the same, and the tool will reverse the encryption process.
+
+### AES Encryption
+For AES encryption:
+1. Enter the text you want to encrypt.
+2. Provide a password for encryption (this will be the AES key).
+3. Click 'Encrypt' to get the encrypted text.
+
+For decryption, the AES password is required to decrypt the text.
+
+### File Operations
+- You can load and save encrypted text to/from files.
+- Batch processing: You can also load multiple files for encryption/decryption in bulk.
+
+### Real-time Help
+The tool also includes a help option that explains how to use the tool for beginners.
+
+## Contributing
+
+We welcome contributions from the community! To contribute:
+
+1. Fork the repo.
+2. Create a branch for your feature (`git checkout -b feature-name`).
+3. Make your changes and commit them (`git commit -am 'Add feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the open-source community for the libraries and resources.
+- Inspired by cryptographic algorithms and techniques.
+
+## Future Features
+
+- Cloud storage integration (future).
+- Multi-language support (future).
+- Real-time collaboration for shared encryption/decryption tasks.
 ```
 
 ---
 
-## 📁 Project Structure
-
-```
-caesar-cipher-tool/
-├── assets/
-│   ├── images/
-│   └── docs/
-│       └── screenshots/
-├── src/
-│   ├── main.py
-│   ├── gui.py
-│   ├── cipher.py
-│   ├── file_handler.py
-│   ├── cloud.py
-│   ├── logger.py
-│   ├── utils.py
-│   └── __init__.py
-├── tests/
-│   ├── test_cipher.py
-│   ├── test_gui.py
-│   ├── test_file_handler.py
-│   └── test_cloud.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
-## 🧠 Future Enhancements
-
-- Cloud Storage Support (Google Drive, Dropbox)
-- Real-time collaboration for encryption tasks
-- AI suggestions for optimal cipher usage
-- Web interface using Flask/React
-
----
-
-## 🪪 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## ✍️ Author
-
-**Nisarg Patel**  
-GitHub: [@sptemp-gpu](https://github.com/sptemp-gpu)  
-Email: technp960@gmail.com  
+This markdown file contains sections for features, installation instructions, usage, contribution guidelines, and more. Just replace `yourusername` with your actual GitHub username for the badges and links to work.
