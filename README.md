@@ -57,16 +57,6 @@ For decryption, the AES password is required to decrypt the text.
 ### Real-time Help
 The tool also includes a help option that explains how to use the tool for beginners.
 
-## Contributing
-
-We welcome contributions from the community! To contribute:
-
-1. Fork the repo.
-2. Create a branch for your feature (`git checkout -b feature-name`).
-3. Make your changes and commit them (`git commit -am 'Add feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Create a pull request.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
