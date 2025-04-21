@@ -23,20 +23,71 @@
 - ☁️ Cloud integration (Planned)
 - 🌍 Multi-language support (Planned)
 
----
-
-## 📸 Screenshots
-
-> Add your screenshots in `assets/docs/screenshots/` folder and replace below
-
-### 🖥️ GUI Overview
-![GUI Screenshot](assets/docs/screenshots/gui_main.png)
-
----
-
 ## 🛠️ Setup Instructions
 
 ### 🔽 Clone the Repo
 ```bash
 git clone https://github.com/sptemp-gpu/caesar-cipher-tool.git
 cd caesar-cipher-tool
+```
+
+### 📦 Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### 🚀 Run the App
+```bash
+python src/main.py
+```
+
+---
+
+## 📁 Project Structure
+
+```
+caesar-cipher-tool/
+├── assets/
+│   ├── images/
+│   └── docs/
+│       └── screenshots/
+├── src/
+│   ├── main.py
+│   ├── gui.py
+│   ├── cipher.py
+│   ├── file_handler.py
+│   ├── cloud.py
+│   ├── logger.py
+│   ├── utils.py
+│   └── __init__.py
+├── tests/
+│   ├── test_cipher.py
+│   ├── test_gui.py
+│   ├── test_file_handler.py
+│   └── test_cloud.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+## 🧠 Future Enhancements
+
+- Cloud Storage Support (Google Drive, Dropbox)
+- Real-time collaboration for encryption tasks
+- AI suggestions for optimal cipher usage
+- Web interface using Flask/React
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## ✍️ Author
+
+**Nisarg Patel**  
+GitHub: [@sptemp-gpu](https://github.com/sptemp-gpu)  
+Email: technp960@gmail.com  
