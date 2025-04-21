@@ -1,13 +1,3 @@
-Absolutely! Here's your **corrected and polished `README.md`** with:
-
-- Fixed links (GitHub repo, badges, etc.)
-- Formatted installation section as code block
-- Clean markdown spacing and grammar
-- Your actual repo username: `sptemp-gpu`
-
----
-
-```markdown
 # Caesar Cipher Tool
 
 A tool for encrypting and decrypting text using various encryption methods like Caesar Cipher, Vigenère Cipher, and AES. This tool also supports batch file processing, logging, and has future plans for cloud storage integration and real-time collaboration.
@@ -32,11 +22,10 @@ A tool for encrypting and decrypting text using various encryption methods like 
 
 Clone the repository and install dependencies:
 
-```bash
+
 git clone https://github.com/sptemp-gpu/caesar-cipher-tool.git
 cd caesar-cipher-tool
 pip install -r requirements.txt
-```
 
 ---
 
@@ -130,8 +119,3 @@ For contribution guidelines, please refer to the [CONTRIBUTING.md](https://githu
 ## 📌 Repo
 
 GitHub Repository: [https://github.com/sptemp-gpu/caesar-cipher-tool](https://github.com/sptemp-gpu/caesar-cipher-tool)
-```
-
----
-
-Let me know if you want this committed and pushed automatically or want the CONTRIBUTING.md file created next!
