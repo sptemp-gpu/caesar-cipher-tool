@@ -1,25 +1,42 @@
-# 🔐 Caesar Cipher Tool
+# Caesar Cipher Tool 🔐
 
-A Python-based encryption and decryption tool with a simple GUI. Supports Caesar Cipher, Vigenère Cipher, and AES encryption. Designed for real-time secure messaging, educational use, and personal data safety.
+![Python Version](https://img.shields.io/badge/python-3.12%2B-blue.svg)
+![License](https://img.shields.io/github/license/sptemp-gpu/caesar-cipher-tool)
+![Last Commit](https://img.shields.io/github/last-commit/sptemp-gpu/caesar-cipher-tool)
+![Repo Size](https://img.shields.io/github/repo-size/sptemp-gpu/caesar-cipher-tool)
+![Issues](https://img.shields.io/github/issues/sptemp-gpu/caesar-cipher-tool)
 
----
-
-## 🚀 Features
-
-- ✅ Caesar Cipher encryption/decryption
-- ✅ Vigenère Cipher encryption/decryption
-- ✅ AES encryption/decryption using password (PyCryptodome)
-- ✅ Batch file processing (encrypt/decrypt files)
-- ✅ Load from and save to text files
-- ✅ Simple, user-friendly Tkinter GUI
-- ✅ Help/Instructional prompt for new users
-- ✅ Modular codebase (easily extendable)
-- ✅ Logging and error tracking
-- 🧪 Built-in unit tests for cipher and file handling modules
-- ☁️ Ready for future cloud storage integration
-- 🌍 Internationalization support (planned)
+> A modern, beginner-friendly encryption & decryption tool supporting Caesar Cipher, Vigenère Cipher, and AES Encryption with a GUI and file handling functionality.
 
 ---
 
-## 📁 Project Structure
+## ✨ Features
 
+- 🔒 Caesar Cipher encryption/decryption
+- 🔑 Vigenère Cipher support
+- 🔐 AES encryption using password
+- 🧠 Brute-force Caesar decryption
+- 📂 Load/Save text from/to files
+- 📑 Multi-cipher GUI with tkinter
+- 💬 Help and error handling dialogs
+- 📝 Batch file processing (Planned)
+- ☁️ Cloud integration (Planned)
+- 🌍 Multi-language support (Planned)
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots in `assets/docs/screenshots/` folder and replace below
+
+### 🖥️ GUI Overview
+![GUI Screenshot](assets/docs/screenshots/gui_main.png)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 🔽 Clone the Repo
+```bash
+git clone https://github.com/sptemp-gpu/caesar-cipher-tool.git
+cd caesar-cipher-tool
