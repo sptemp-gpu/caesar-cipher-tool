@@ -1,6 +1,3 @@
-Here’s the full `README.md` content in proper Markdown format:
-
-```markdown
 # Caesar Cipher Tool
 
 A tool for encrypting and decrypting text using various encryption methods like Caesar Cipher, Vigenère Cipher, and AES. This tool also supports batch file processing, cloud storage integration (future), and more.
@@ -21,11 +18,11 @@ A tool for encrypting and decrypting text using various encryption methods like 
 
 Clone the repo and install dependencies:
 
-```bash
-git clone https://github.com/yourusername/caesar-cipher-tool.git
-cd caesar-cipher-tool
-pip install -r requirements.txt
-```
+
+- git clone https://github.com/yourusername/caesar-cipher-tool.git
+- cd caesar-cipher-tool
+- pip install -r requirements.txt
+
 
 ## Usage
 
@@ -84,8 +81,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Cloud storage integration (future).
 - Multi-language support (future).
 - Real-time collaboration for shared encryption/decryption tasks.
-```
-
----
-
-This markdown file contains sections for features, installation instructions, usage, contribution guidelines, and more. Just replace `yourusername` with your actual GitHub username for the badges and links to work.
