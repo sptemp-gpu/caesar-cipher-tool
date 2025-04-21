@@ -2,8 +2,8 @@
 
 A tool for encrypting and decrypting text using various encryption methods like Caesar Cipher, Vigenère Cipher, and AES. This tool also supports batch file processing, logging, and has future plans for cloud storage integration and real-time collaboration.
 
-![GitHub](https://img.shields.io/github/license/sptemp-gpu/caesar-cipher-tool) 
-![Version](https://img.shields.io/github/v/release/sptemp-gpu/caesar-cipher-tool)
+![GitHub License](https://img.shields.io/github/license/sptemp-gpu/caesar-cipher-tool)
+![GitHub Release](https://img.shields.io/github/v/release/sptemp-gpu/caesar-cipher-tool?include_prereleases)
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg)
 
 ---
