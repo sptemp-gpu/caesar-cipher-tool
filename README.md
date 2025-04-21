@@ -23,9 +23,9 @@ A tool for encrypting and decrypting text using various encryption methods like 
 Clone the repository and install dependencies:
 
 
-git clone https://github.com/sptemp-gpu/caesar-cipher-tool.git
-cd caesar-cipher-tool
-pip install -r requirements.txt
+- git clone https://github.com/sptemp-gpu/caesar-cipher-tool.git
+- cd caesar-cipher-tool
+- pip install -r requirements.txt
 
 ---
 
